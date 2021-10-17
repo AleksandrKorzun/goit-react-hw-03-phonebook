@@ -13,7 +13,7 @@ class App extends Component {
     filter: ''
   };
   componentDidMount(){
-    this.setState({contacts: JSON.parse(localStorage.getItem("contacts"))})
+    this.setState({contacts: JSON.parse(localStorage.getItem("contacts")) || []})
   }
   addContacts = (name, number) => {
     const {contacts} = this.state
