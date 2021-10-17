@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formLabel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+}
+.formInput {
+    margin-top: 10px;
+}
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: cornflowerblue;
+}
